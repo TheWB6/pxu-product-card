@@ -1,0 +1,27 @@
+.shirt button {
+  position: absolute;
+  display: none;
+  width: 50%;
+  background-image: linear-gradient(#3587CA, #2053A9);
+}
+
+.shirt:hover img{
+  opacity: 0.25;
+}
+
+.shirt:hover button {
+  display: block;
+}
+
+.shirt button.add-to-cart {
+  top: 35%;
+  left: 25%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.stars > svg {
+  margin: 5px;
+}
